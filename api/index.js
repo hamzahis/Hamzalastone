@@ -3,8 +3,8 @@ var fs = require('fs');
 http.createServer(function (req, res) {
   fs.appendFile('index.html', '<html>
 <body>
-<h1>My Header</h1>
-<p>My paragraph.</p>
+<h1> Header</h1>
+<p>paragraph.</p>
 </body>
 </html>', function (err) {
   if (err) throw err;
