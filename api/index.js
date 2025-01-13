@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 fs.appendFile('mynewfile1.txt', 'Hello content!', function (err) {
   if (err) throw err;
-  console.log('Saved!');
+//  console.log('Saved!');
   res.write("god");
 });
 /*  fs.readFile('file.html', function(err, data) {
